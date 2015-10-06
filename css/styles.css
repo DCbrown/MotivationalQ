@@ -1,0 +1,60 @@
+		body{
+    		height:100%;
+			padding:0px;
+    		background: url(http://images4.alphacoders.com/251/251038.jpg) no-repeat;
+    		background-color:black !important;
+    		-webkit-background-size:cover;
+			-moz-background-size:cover;
+			-o-background-size:cover;
+			background-size:cover;
+    	}
+
+    	h1{
+    		color:white;
+    	}
+
+    	p.tweet-extract a {
+    		color: #fff;
+   			display: block;
+   			width: 100%;
+    		height: 100%;
+    		text-decoration: none;
+
+		}
+
+		p.tweet-extract {
+    		background: rgba(85, 172, 238, 0.5);
+    		padding: .5em;
+    		width: 100%;
+    		color: #fff;
+    		box-sizing: border-box;
+    		position: relative;
+    		display: block;
+    		float: left;
+    	}	
+
+    	span.tweet-link {
+    		margin-bottom: 0px;
+    		font-size: .8em;
+   			color: #fff;
+    		background-size: 2em;
+    		width: 100%;
+    		display: block;
+    		margin-top: 1em;
+    	}
+
+    	@media(max-width: 991px) {
+			.intro{
+				height:100%;
+				padding:0;
+				background-image:url("http://images4.alphacoders.com/251/251038.jpg");
+				background-size: cover;
+				-moz-background-size: cover;  /* Firefox 3.6 */
+  				background-position: center;  /* Internet Explorer 7/8 */
+    			background-repeat: no-repeat;
+			}
+
+			h1{
+				font-size:30px;
+			}
+		}
